@@ -1,0 +1,86 @@
+.mainSection{
+    display:flex;
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentBox{
+    width: 40%;
+    background-color: white;
+    padding-top: 2%;
+    border-radius:.5rem;
+    text-align: center;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+    color:rgb(141, 7, 7);
+}
+.contentBox p{
+    font-size: 1.2rem;
+    margin: 1em 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contentBox{
+    font-size: 1.2rem;
+    margin: 1em 0;
+    font-family: 'Poppins', sans-serif;
+}
+.imgContainer{
+    width: 90%;
+    text-align:center ;
+}
+.imgContainer img{
+    
+    width: 40%;
+    margin: 0 auto;
+    display:block;
+    align-items: center;
+
+}
+.contentBox h2{
+    font-weight: bold;
+    color: brown;
+}
+.contentBox h3{
+    font-weight: bold;
+    color: rgb(160, 8, 135);
+}
+@media screen and (max-width:900px){
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 14px;;
+    }
+
+.mainSection{
+    flex-direction: column;
+    margin-top: 1em;
+}
+.contentBox {
+    width: 90%;
+    margin: 0 auto;
+}
+.contentBox h1{
+    font-size: 2rem;
+}
+.contentBox h2{
+    font-size: 2rem;
+}
+.contentBox h3{
+    font-size: 2rem;
+}
+.contentBox p{
+    font-size: 1.1rem;
+    }
+.imgContainer{
+    width: 80%;
+}
+}
+@media  screen and (max-width:400px) {
+    .imgContainer{
+        width: 60%;
+    }
+}

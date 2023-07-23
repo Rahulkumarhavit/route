@@ -1,0 +1,51 @@
+:root{
+    --mainColor:#8b008B;
+}
+header{
+    background-color:black;
+}
+.container{
+    width: 95%;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width:130px;
+    padding: .5em 0;
+}
+.listItem{
+    margin-left: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;font-family: 'Poppins', sans-serif;
+}
+.activeItem{
+    color:orange;
+    border-bottom: .1em double #fff;
+}
+@media screen and (nax-width:1100){
+  html{
+    font-size: 13px;
+  }  
+.container-flex{
+    flex-direction: column;
+}
+@media  screen and (max-width:568px){
+    html{
+        font-size: 11px;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .listItem{
+        margin-top: .2em;
+    }
+
+}
+}
